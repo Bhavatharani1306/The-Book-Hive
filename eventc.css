@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.seating-chart {
+    display: inline-block;
+    margin: 20px auto;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #fff;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+    display: inline-block;
+    background-color: #e0e0e0;
+    border: 1px solid #999;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.p{
+    padding: 10px;
+}
+
+.seat.selected {
+    background-color: #6c757d;
+    
+}
+
+.seat.selected:hover {
+    background-color: #5a6268;
+}
+
+.seat:hover {
+    background-color: #d1d1d1;
+}
+
+.selection-info {
+    margin-top: 20px;
+}
